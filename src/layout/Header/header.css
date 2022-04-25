@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Josefin Sans Light";
+  src: url(../../assets/fonts/JosefinSans-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Josefin Sans Bold";
+  src: url(../../assets/fonts/JosefinSans-Bold.ttf);
+  font-weight: 700;
+}
+
+.header {
+  padding: 10px 21px;
+  border-bottom: 1px solid black;
+}
+.avatar {
+  width: 46px;
+  height: 46px;
+  background-color: grey;
+  border-radius: 50%;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+
+}
