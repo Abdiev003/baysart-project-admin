@@ -8,17 +8,26 @@ import Layout from "./layout";
 import Overview from "./pages/Overview";
 import Pages from "./pages/Pages";
 import Product from "./pages/Product";
+import SignIn from "./pages/SignIn";
 
 const App = () => {
+  const isAuthenticated = localStorage.getItem("token") || false;
+
   return (
     <BrowserRouter>
-      <Layout>
+      {isAuthenticated ? (
+        <Layout>
+          <Routes>
+            <Route path="/" index element={<Overview />} />
+            <Route path="/pages" element={<Pages />} />
+            <Route path="/product" element={<Product />} />
+          </Routes>
+        </Layout>
+      ) : (
         <Routes>
-          <Route path="/" index element={<Overview />} />
-          <Route path="/pages" element={<Pages />} />
-          <Route path="/product" element={<Product />} />
+          <Route path="/sign-in" element={<SignIn />} />
         </Routes>
-      </Layout>
+      )}
     </BrowserRouter>
   );
 };

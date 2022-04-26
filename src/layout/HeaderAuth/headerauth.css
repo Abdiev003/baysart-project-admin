@@ -1,0 +1,42 @@
+.header-auth {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    height: 57px;
+    border-bottom: 1px solid #9ca3af;
+  }
+  .header-auth-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-signing {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+  }
+  
+  .header-signing img {
+    margin-right: 28px;
+    height: 20px;
+    width: 16px;
+    left: 4px;
+    top: 2px;
+    border-radius: 0px;
+  }
+  
+  .header-login-txt h4 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+  }
+  

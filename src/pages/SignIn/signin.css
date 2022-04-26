@@ -1,0 +1,34 @@
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+}
+.signin-box {
+  height: 586px;
+  width: 1085px;
+  left: 177px;
+  top: 264px;
+  border-radius: 10px;
+  background: #f9fafb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.signin-txt h2 {
+  font-style: normal;
+  margin-bottom: 30px !important;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 39px;
+  color: #18181b;
+}
+.signin-txt h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
