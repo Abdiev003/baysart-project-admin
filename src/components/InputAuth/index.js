@@ -18,6 +18,7 @@ const InputAuth = ({
   onChange,
   isRequired,
   display,
+  text,
 }) => {
   return (
     <div className="signinauth-input">

@@ -20,9 +20,10 @@
   margin-bottom: 0;
 }
 
-.footer-social-flex img{
-    margin-left: 11px;
+.footer-social-flex img {
+  margin-left: 11px;
 }
+
 @media only screen and (max-width: 1200px) {
   .footer-area {
     width: 768px;
@@ -35,6 +36,13 @@
   .footer-area {
     width: 375px;
     padding: 0 23px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-area {
+    width: 320px;
+    padding: 0 10px;
   }
   
 }

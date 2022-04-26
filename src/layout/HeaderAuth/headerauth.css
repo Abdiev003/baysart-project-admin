@@ -56,8 +56,23 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .header-auth-container {
+    width: 375px;
+  }
+
   .header-right {
     padding: 0 39px;
     width: 368px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .header-auth-container {
+    width: 320px;
+  }
+
+  .header-right {
+    /* padding: 0 39px; */
+    width: 320px;
+  }
+} 

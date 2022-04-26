@@ -1,0 +1,101 @@
+.signin-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50rem;
+  width: 100%;
+}
+
+.signin-border {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 705px;
+  height: 443px;
+  background: #f9fafb;
+}
+
+.signin-client {
+  margin-bottom: 25px;
+  height: 86px;
+  width: 86px;
+  border-radius: 0px;
+}
+
+.signin-client-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-txt h4 {
+  margin-bottom: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.signin-txt label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "Josefin Sans Light";
+  margin-bottom: 38px;
+}
+
+.input-area button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .signin-border {
+    width: 660px;
+    height: 1091px;
+  }
+
+  .signin-txt label {
+    font-weight: 400;
+  }
+
+  .signin-step {
+    height: 90rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .signin-border {
+    width: 330px;
+    height: 579px;
+  }
+
+  .input-area input {
+    width: 205px !important;
+    height: 29px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .signin-step {
+    height: 39rem;
+  }
+
+  .input-area button {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    width: 54px !important;
+    height: 28px !important;
+    padding: 0 !important;
+  }
+}

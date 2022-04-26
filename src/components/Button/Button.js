@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./button.css";
+
 const Button = ({
   color,
   backgroundColor,
@@ -8,9 +10,15 @@ const Button = ({
   boxShadow,
   borderRadius,
   text,
+  align,
+  img,
+  padding,
 }) => {
   return (
-    <div className="text-center text-lg-end text-md-center mt-5">
+    <div
+      className={`text-center text-lg-${align} text-md-center mt-5 position-relative`}
+    >
+      {img && <img className="btn-img" src={img} alt="" />}
       <button
         style={{
           color: color,
@@ -19,6 +27,7 @@ const Button = ({
           height: height,
           boxShadow: boxShadow,
           borderRadius: borderRadius,
+          padding: padding,
         }}
       >
         {text}

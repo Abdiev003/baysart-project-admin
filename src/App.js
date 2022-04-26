@@ -9,6 +9,8 @@ import Overview from "./pages/Overview";
 import Pages from "./pages/Pages";
 import Product from "./pages/Product";
 import SignIn from "./pages/SignIn";
+import SignInStep from "./pages/SignInStep";
+import ForgotPassword from "./pages/ForgotPassword";
 
 const App = () => {
   const isAuthenticated = localStorage.getItem("token") || false;
@@ -26,6 +28,8 @@ const App = () => {
       ) : (
         <Routes>
           <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/sign-in/step" element={<SignInStep />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
         </Routes>
       )}
     </BrowserRouter>

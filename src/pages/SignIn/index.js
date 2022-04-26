@@ -40,11 +40,12 @@ const SignIn = () => {
             <Button
               color="#F9FAFB"
               backgroundColor="#1C64F2"
-              width={width < 768 ? "50px" : "420px"}
-              height={height < 768 ? "42px" :  "28px"}
+              width={width < 768 ? "50px" : "96px"}
+              height={height < 768 ? "42px" :  "42px"}
               borderRadius="8px"
               boxShadow="0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14)"
               text="Sign In"
+              align={"end"}
             />
           </div>
         </div>

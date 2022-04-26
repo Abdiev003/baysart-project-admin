@@ -1,0 +1,15 @@
+.btn-img {
+  position: absolute;
+  top: 13px;
+  margin-left: 17px;
+  margin-right: 11px;
+}
+/* @media only screen and (max-width: 1200px) {
+
+  }
+   */
+@media only screen and (max-width: 768px) {
+  .btn-img {
+    display: none;
+  }
+}
