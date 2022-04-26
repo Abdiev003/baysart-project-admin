@@ -2,9 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 80rem;
   width: 100%;
 }
+
 .signin-box {
   height: 586px;
   width: 1085px;
@@ -17,6 +18,7 @@
   align-items: center;
   justify-content: space-around;
 }
+
 .signin-txt h2 {
   font-style: normal;
   margin-bottom: 30px !important;
@@ -25,10 +27,62 @@
   line-height: 39px;
   color: #18181b;
 }
+
 .signin-txt h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
   color: #000000;
+}
+
+@media only screen and (max-width: 1200px) {
+  .signin-box {
+    width: 660px;
+    height: 1091px;
+  }
+
+  .signin-img {
+    width: 348.56px;
+    height: 438.33px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .signin{
+    height: 54rem;
+  }
+  .signin-box {
+    width: 330px;
+    height: 800px;
+  }
+
+  .signin-txt h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .signin-txt label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .signin-txt input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .signin-txt button {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+  
+  }
 }

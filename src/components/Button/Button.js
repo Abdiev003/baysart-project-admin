@@ -10,7 +10,7 @@ const Button = ({
   text,
 }) => {
   return (
-    <div className="text-end mt-5">
+    <div className="text-center text-lg-end text-md-center mt-5">
       <button
         style={{
           color: color,

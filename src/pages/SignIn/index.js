@@ -7,6 +7,9 @@ import "./signin.css";
 import Button from "../../components/Button/Button";
 
 const SignIn = () => {
+  const width = window.innerWidth;
+
+  const height = window.innerHeight;
   return (
     <div>
       <HeaderAuth />
@@ -21,7 +24,7 @@ const SignIn = () => {
             <InputAuth
               label={"Your Email"}
               placeholder={"Sample Text"}
-              width="420px"
+              width={width < 768 ? "205px" : "420px"}
               height="60px"
               margin={"20px"}
             />
@@ -30,16 +33,15 @@ const SignIn = () => {
               padding={"10px 20px"}
               display={"none"}
               placeholder={"Sample Text"}
-              width="420px"
+              width={width < 768 ? "205px" : "420px"}
               height="60px"
             />
 
             <Button
-            
               color="#F9FAFB"
               backgroundColor="#1C64F2"
-              width="96px"
-              height="42px"
+              width={width < 768 ? "50px" : "420px"}
+              height={height < 768 ? "42px" :  "28px"}
               borderRadius="8px"
               boxShadow="0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14)"
               text="Sign In"
@@ -47,7 +49,7 @@ const SignIn = () => {
           </div>
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
