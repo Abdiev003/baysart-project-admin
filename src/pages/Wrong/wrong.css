@@ -1,0 +1,153 @@
+.wrong-border {
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  height: 56rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.wrong-txt {
+  text-align: center;
+}
+
+.wrong-img img {
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.wrong-img {
+  width: 538px;
+  height: 529px;
+}
+
+.wrong-img img {
+  width: 100%;
+}
+
+.wrong-logo h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 49px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.wrong-logo button {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #f9fafb;
+}
+
+.wrong-logo h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
+  font-family: "Josefin Sans Light";
+  margin-bottom: 23px;
+}
+
+.btn-img {
+  position: absolute;
+  top: 14px;
+  margin-left: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrong-border {
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    height: 67rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .wrong-logo h4 {
+    padding: 0 64px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .wrong-logo h1 {
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 49px;
+    margin-bottom: 30px;
+  }
+
+  .wrong-img {
+    width: 538px;
+    height: 529px;
+    margin-bottom: 146px;
+  }
+
+  .wrong-logo button {
+    margin-bottom: 40px;
+  }
+
+  .footer-area {
+    width: 100%;
+  }
+  .btn-img {
+    position: absolute;
+    top: 14px;
+    margin-left: 14px;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrong-border {
+    height: 55rem;
+  }
+
+  .wrong-logo h1 {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+    margin-bottom: 51px;
+  }
+
+  .wrong-logo h4 {
+    padding: 0 26px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 46px;
+  }
+
+  .wrong-img {
+    width: 328px;
+    height: 323px;
+    margin-bottom: 68px;
+  }
+
+  .wrong-img {
+    margin-bottom: 10px;
+  }
+
+  .wrong-logo button {
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+
+  .btn-img {
+    display: inline;
+  }
+}

@@ -13,6 +13,7 @@ import SignInStep from "./pages/SignInStep";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/Resetpassword";
 import Error from "./pages/Error";
+import Wrong from "./pages/Wrong";
 
 const App = () => {
   const isAuthenticated = localStorage.getItem("token") || false;
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password" element={<ResetPassword />} />
           <Route path="*" element={<Error />} />
+          <Route path="/wrong" element={<Wrong />} />
         </Routes>
       )}
     </BrowserRouter>
