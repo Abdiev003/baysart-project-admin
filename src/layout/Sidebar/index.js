@@ -38,6 +38,26 @@ const Sidebar = () => {
               <span>Products</span>
             </NavLink>
           </li>
+
+          <li>
+            <NavLink
+              to="/product"
+              className={({ isActive }) => (isActive ? "active" : null)}
+            >
+              <img src={Bug} alt="" />
+              <span>Products</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/product"
+              className={({ isActive }) => (isActive ? "active" : null)}
+            >
+              <img src={Bug} alt="" />
+              <span>Products</span>
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>
