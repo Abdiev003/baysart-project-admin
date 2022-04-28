@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import Over from "../../assets/images/over.svg";
 import Pages from "../../assets/images/pages.svg";
 import Bug from "../../assets/images/bug.svg";
+import Components from "../../assets/images/components.svg";
+import Help from "../../assets/images/help.svg";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -44,8 +46,8 @@ const Sidebar = () => {
               to="/product"
               className={({ isActive }) => (isActive ? "active" : null)}
             >
-              <img src={Bug} alt="" />
-              <span>Products</span>
+              <img src={Components} alt="" />
+              <span>Components</span>
             </NavLink>
           </li>
 
@@ -54,8 +56,8 @@ const Sidebar = () => {
               to="/product"
               className={({ isActive }) => (isActive ? "active" : null)}
             >
-              <img src={Bug} alt="" />
-              <span>Products</span>
+              <img src={Help} alt="" />
+              <span>Help</span>
             </NavLink>
           </li>
         </ul>

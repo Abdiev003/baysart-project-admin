@@ -1,0 +1,323 @@
+.overview {
+  padding: 15px 19px;
+}
+
+.overview-border {
+  width: 1103px;
+  height: 680px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  background: #f9fafb;
+  padding: 32px 42px;
+}
+
+.overview-border h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: #111928;
+  margin-bottom: 44px;
+}
+
+.overview-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 31px;
+}
+.overview-shop {
+  margin-right: 30px;
+}
+
+.overview-shop input {
+  padding: 17px;
+  margin-bottom: 46px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+.overview-shop {
+  height: 258px;
+}
+
+.overview-shop label {
+  margin-bottom: 15px;
+}
+
+.uplad {
+  margin-bottom: 15px;
+}
+
+.overview-contact b {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.overview-contact label {
+  font-family: "Josefin Sans Light";
+  margin-bottom: 10px;
+}
+
+.overview-contact input {
+  padding: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #6b7280;
+  margin-bottom: 48px;
+}
+.overview-contact h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #18181b;
+  margin-bottom: 15px;
+}
+
+.chose-right {
+  width: 584px;
+  height: 100px;
+  border: 1px dashed #9ca3af;
+  border-radius: 10px;
+}
+
+.chose-right input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0;
+  border-radius: 10px;
+}
+.text-area textarea {
+  width: 1033px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  padding: 17px 20px;
+  color: #6b7280;
+}
+
+.overview-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.overview-btn button {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.text-area label {
+  margin-bottom: 10px;
+}
+
+.kiHXWb {
+  border-color: #9ca3af !important;
+  width: 418px !important;
+  height: 100px !important;
+}
+
+.drag-drop-files {
+  width: 584px !important;
+  max-width: 100% !important;
+}
+
+.file-types {
+  display: none !important;
+}
+
+.fVfcRr {
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .overview {
+    padding: 36px 20px;
+  }
+
+  .overview-border {
+    width: 728px;
+    height: 636px;
+    border-radius: 10px;
+    padding: 32px 25px;
+  }
+
+  .overview-border h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #111928;
+    margin-bottom: 44px;
+  }
+
+  .overview-shop label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .kiHXWb {
+    width: 263px !important;
+  }
+
+  .drag-drop-files {
+    width: 362px !important;
+  }
+
+  .overview-shop input {
+    width: 300px !important;
+    height: 30px !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .signinauth-input input {
+    width: 300px !important;
+    height: 30px !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .overview-contact h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .overview-contact label b {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 !important;
+  }
+
+  .drag-drop-files {
+    width: 85% !important;
+  }
+
+  .overview-contact label {
+    width: 341px;
+  }
+
+  .text-area textarea {
+    width: 662px;
+    height: 150px;
+  }
+
+  .overview-shop {
+    height: 228px;
+  }
+
+  .overview-contact {
+    height: 224px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .overview-border h4 {
+    margin-bottom: 15px;
+  }
+
+  .overview-flex {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .overview {
+    margin: 0 auto;
+  }
+
+  .overview-border {
+    width: 342px;
+    height: 55rem;
+    border-radius: 10px;
+    padding: 34px 13px;
+  }
+
+  .overview-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .overview-border h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .overview-shop {
+    margin: 0;
+  }
+
+  .overview-contact {
+    margin-left: 22px;
+  }
+
+  .overview-shop label {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  .signinauth-input {
+    width: 311px;
+    height: 30px;
+    margin-bottom: 29px;
+  }
+
+  .overview-contact h4 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+
+  .uplad {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .overview-contact label {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .overview-contact label b {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+
+  .kiHXWb {
+    width: 309px;
+    height: 100px;
+  }
+
+  .drag-drop-files {
+    width: 309px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+
+  .text-area textarea {
+    width: 309px;
+    height: 150px;
+  }
+
+  /* .text-area{
+    margin-bottom: 10px;
+  } */
+}

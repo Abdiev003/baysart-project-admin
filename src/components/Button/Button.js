@@ -13,6 +13,7 @@ const Button = ({
   align,
   img,
   padding,
+  margin,
 }) => {
   return (
     <div
@@ -28,6 +29,7 @@ const Button = ({
           boxShadow: boxShadow,
           borderRadius: borderRadius,
           padding: padding,
+          margin,
         }}
       >
         {text}

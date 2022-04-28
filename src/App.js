@@ -16,7 +16,7 @@ import Error from "./pages/Error";
 import Wrong from "./pages/Wrong";
 
 const App = () => {
-  const isAuthenticated = localStorage.getItem("token") || false;
+  const isAuthenticated = localStorage.getItem("token") || true;
 
   return (
     <BrowserRouter>
