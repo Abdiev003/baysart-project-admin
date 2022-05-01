@@ -31,6 +31,7 @@
 }
 
 .overview-shop input {
+  height: 37px !important;
   padding: 17px;
   margin-bottom: 46px;
   font-style: normal;
@@ -180,7 +181,7 @@
     line-height: 12px;
   }
 
-  .signinauth-input input {
+  .overview-shop input {
     width: 300px !important;
     height: 30px !important;
     font-weight: 400;
@@ -227,7 +228,7 @@
   }
 
   .overview-border h4 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .overview-flex {
@@ -236,8 +237,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    
   .overview {
-    margin: 0 auto;
+    margin: 34px auto;
+    padding: 0;
   }
 
   .overview-border {

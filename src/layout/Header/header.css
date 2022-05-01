@@ -11,7 +11,11 @@
 
 .header {
   padding: 10px 21px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #9CA3AF;
+}
+
+.hamburger {
+  display: none;
 }
 
 .avatar {
@@ -31,11 +35,24 @@
 @media only screen and (max-width: 1200px) {
   .header {
     padding: 30px 21px;
+    position: relative;
+  }
+  .hamburger {
+    display: block;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .header {
     padding: 30px 21px;
+  }
+
+  .input-search {
+    width: 150px;
+    height: 30px;
+  }
+
+  .input-search input {
+    padding: 10px 30px;
   }
 }

@@ -1,16 +1,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+
 import Over from "../../assets/images/over.svg";
 import Pages from "../../assets/images/pages.svg";
 import Bug from "../../assets/images/bug.svg";
 import Components from "../../assets/images/components.svg";
 import Help from "../../assets/images/help.svg";
-import "./sidebar.css";
 
-const Sidebar = () => {
+import "./categorymenu.css";
+
+const CategoryMenu = () => {
   return (
-    <div className="sidebar">
-      <div className="sidebar-container">
+    <div className="sidebar-tablet">
+      <div className="sidebar-tablet-container">
         <ul>
           <li>
             <NavLink
@@ -43,7 +45,7 @@ const Sidebar = () => {
 
           <li>
             <NavLink
-              to="/test"
+              to="/product"
               className={({ isActive }) => (isActive ? "active" : null)}
             >
               <img src={Components} alt="" />
@@ -53,7 +55,7 @@ const Sidebar = () => {
 
           <li>
             <NavLink
-              to="/test1"
+              to="/product"
               className={({ isActive }) => (isActive ? "active" : null)}
             >
               <img src={Help} alt="" />
@@ -66,4 +68,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default CategoryMenu;

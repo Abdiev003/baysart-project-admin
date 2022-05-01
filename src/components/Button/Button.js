@@ -14,6 +14,7 @@ const Button = ({
   img,
   padding,
   margin,
+  display,
 }) => {
   return (
     <div
@@ -30,6 +31,7 @@ const Button = ({
           borderRadius: borderRadius,
           padding: padding,
           margin,
+          display,
         }}
       >
         {text}

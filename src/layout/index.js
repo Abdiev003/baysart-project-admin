@@ -5,8 +5,7 @@ import Sidebar from "./Sidebar";
 const Layout = ({ children }) => {
   return (
     <div
-      className="container-xd"
-      style={{ maxWidth: "1440px", margin: "0 auto" }}
+      className="container"
     >
       <Header />
       <div className="d-flex">

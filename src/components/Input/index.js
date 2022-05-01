@@ -1,8 +1,6 @@
 import React from "react";
 import "./input.css";
 
-import Mail from "../../assets/images/mail.svg";
-
 const Input = ({
   width,
   height,
@@ -16,6 +14,7 @@ const Input = ({
   onChange,
   isRequired,
   display,
+  icon,
 }) => {
   return (
     <div>
@@ -32,7 +31,7 @@ const Input = ({
           style={{ width: width, height: height, borderRadius: radius }}
           className="input"
         />
-        <img src={Mail} alt="" style={{ display: display }} />
+        <img src={icon} alt="" style={{ display: display }} />
       </div>
     </div>
   );
