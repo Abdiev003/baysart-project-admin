@@ -3,6 +3,7 @@ import React from "react";
 import "./button.css";
 
 const Button = ({
+  onClick,
   color,
   backgroundColor,
   width,
@@ -22,6 +23,7 @@ const Button = ({
     >
       {img && <img className="btn-img" src={img} alt="" />}
       <button
+     
         style={{
           color: color,
           backgroundColor: backgroundColor,
@@ -33,8 +35,11 @@ const Button = ({
           margin,
           display,
         }}
+        
       >
+        {onClick}
         {text}
+        
       </button>
     </div>
   );

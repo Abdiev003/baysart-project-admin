@@ -48,11 +48,17 @@
   }
 
   .input-search {
-    width: 150px;
+    width: 150px !important;
     height: 30px;
   }
 
   .input-search input {
     padding: 10px 30px;
   }
+
+  .header-input img{
+    left: 6px !important;
+  }
+
+
 }

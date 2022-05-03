@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Input from "../Input";
 import Button from "../Button/Button";
 import Searchh from "../../assets/images/search.svg";
 import Trash from "../../assets/images/trash.svg";
+import Modal from "../Modal";
 
 import Add from "../../assets/images/add.svg";
 
