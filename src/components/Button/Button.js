@@ -15,15 +15,15 @@ const Button = ({
   img,
   padding,
   margin,
+  marginTop,
   display,
 }) => {
   return (
     <div
-      className={`text-center text-lg-${align} text-md-center mt-5 position-relative`}
+      className={`text-center text-lg-${align} text-md-center  position-relative` }
     >
       {img && <img className="btn-img" src={img} alt="" />}
       <button
-     
         style={{
           color: color,
           backgroundColor: backgroundColor,
@@ -34,12 +34,11 @@ const Button = ({
           padding: padding,
           margin,
           display,
+          marginTop: marginTop,
         }}
-        
       >
         {onClick}
         {text}
-        
       </button>
     </div>
   );

@@ -29,9 +29,12 @@ const Sidebar = () => {
             >
               <img src={Pages} alt="" />
               <span>Pages</span>
+             
             </NavLink>
+           
           </li>
           <li>
+          
             <NavLink
               to="/product"
               className={({ isActive }) => (isActive ? "active" : null)}

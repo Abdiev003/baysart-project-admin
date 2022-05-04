@@ -15,6 +15,7 @@ const Input = ({
   isRequired,
   display,
   icon,
+  padding,
 }) => {
   return (
     <div>
@@ -28,7 +29,7 @@ const Input = ({
           name={name}
           onChange={(e) => onChange(e.target.value)}
           value={value}
-          style={{ width: width, height: height, borderRadius: radius }}
+          style={{ width: width, height: height, borderRadius: radius ,padding:padding}}
           className="input"
         />
         <img src={icon} alt="" style={{ display: display }} />

@@ -1,0 +1,526 @@
+.settings-border {
+  padding: 19px 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 67rem;
+}
+
+.profile {
+  width: 430px;
+  height: 165px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 11px;
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  margin-bottom: 20px;
+}
+
+.profile-txt h4 {
+  font-family: "Josefin Sans Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  display: flex;
+  justify-content: end;
+  line-height: 25px;
+  color: #000000;
+}
+
+.profile-txth h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.socila-account {
+  width: 430px;
+  height: 301px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  background-color: #f9fafb;
+  padding: 33px 14px;
+}
+
+.socila-account h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: #111928;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 2px;
+  justify-content: space-between;
+}
+
+.facebook button {
+  margin-top: 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  margin-right: 7px;
+}
+
+.fb-area {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fb-area label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 2px;
+  justify-content: space-between;
+}
+
+.instagram button {
+  margin-top: 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  margin-right: 7px;
+}
+
+.inst-area {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inst-area label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.gmail {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 2px;
+  justify-content: space-between;
+}
+
+.gmail button {
+  margin-top: 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.gmail-area {
+  width: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gmail-area label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.git {
+  display: flex;
+  align-items: center;
+  margin-bottom: 47px;
+  padding: 10px 2px;
+  justify-content: space-between;
+}
+
+.git-area {
+  width: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.git button {
+  margin-top: 0 !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.git-area label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+.infarmation {
+  width: 560px;
+  height: 484px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  padding: 24px 24px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infarmation h4 {
+  margin-bottom: 23px;
+}
+
+.left-input-area label {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.left-input-area input {
+  padding: 9px 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #6b7280;
+}
+
+.left-input-area .input-search {
+  margin-bottom: 15px;
+}
+
+.left-input-area .input-search img {
+  width: 15px;
+}
+
+.right-input-area label {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.right-input-area input {
+  padding: 9px 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #6b7280;
+}
+
+.right-input-area .input-search {
+  margin-bottom: 15px;
+}
+
+.right-input-area select {
+  margin-bottom: 15px;
+}
+
+.infarmation button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.update {
+  display: flex;
+  justify-content: end;
+}
+
+.password-infarmation {
+  width: 582px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 25px 24px;
+  background-color: #f9fafb;
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12),
+    0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+}
+
+.left h4 {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 25px;
+  color: #111928;
+}
+
+.left label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.left .input-search {
+  margin-bottom: 24px;
+}
+
+.left input {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #6b7280;
+}
+
+.left button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.password-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  width: 17rem;
+}
+
+.right label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.right input {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #6b7280;
+  margin-bottom: 22px;
+}
+
+.password-button-lef {
+  display: flex;
+}
+
+.right ul {
+  width: 16rem;
+}
+
+.right li {
+  font-family: "Josefin Sans Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
+.password-padding {
+  padding: 19px 19px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    width: 40rem !important;
+  }
+  .settings-border {
+    width: 46rem;
+    padding: 30px 20px;
+    justify-content: space-between;
+  }
+
+  .profile {
+    width: 323px;
+    height: 165px;
+  }
+  .profile h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .profile h4 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .socila-account {
+    width: 323px;
+    height: 301px;
+  }
+
+  .socila-account h4 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .fb-area label {
+    margin: 0;
+  }
+
+  .inst-area label {
+    margin: 0;
+  }
+
+  .gmail-area label {
+    margin: 0;
+  }
+
+  .git-area label {
+    margin: 0;
+  }
+
+  .inst-area {
+    width: 79px;
+  }
+
+  .gmail-area {
+    width: 88px;
+  }
+
+  .git-area {
+    width: 88px;
+  }
+
+  .infarmation {
+    width: 358px;
+    height: 484px;
+    padding: 10px 10px;
+  }
+
+  .infarmation h4 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .left-input-area .input-search input {
+    width: 161px !important;
+    height: 30px;
+  }
+
+  .right-input-area .input-search input {
+    width: 161px !important;
+    height: 30px;
+  }
+
+  .right-input-area select {
+    width: 161px !important;
+  }
+
+  .left-input-area label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .right-input-area label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .left-input-area .input-search img {
+    margin-left: 6px;
+  }
+
+  .password-infarmation label {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .settings-border {
+    flex-direction: column;
+    width: 41rem;
+  }
+  .profile {
+    width: 374px;
+    height: 165px;
+  }
+
+  .socila-account {
+    width: 374px;
+    height: 301px;
+    margin-bottom: 22px;
+  }
+
+  .infarmation {
+    width: 374px;
+    height: 484px;
+  }
+
+  .password-infarmation {
+    width: 374px;
+    height: 500px;
+  }
+
+  .password-flex {
+    flex-direction: column;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .password-button-lef{
+      margin-bottom: 20px;
+  }
+
+  .password-padding{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    width: 100%;
+  }
+}

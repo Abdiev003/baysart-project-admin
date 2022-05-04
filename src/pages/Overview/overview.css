@@ -101,6 +101,7 @@
   background-color: #f3f4f6;
   padding: 17px 20px;
   color: #6b7280;
+  margin-bottom: 3rem;
 }
 
 .overview-btn {
@@ -221,6 +222,7 @@
 
   .overview-contact {
     height: 224px;
+    width: 18rem;
   }
 
   .sidebar {
@@ -269,6 +271,7 @@
 
   .overview-contact {
     margin-left: 22px;
+    width: 21rem;
   }
 
   .overview-shop label {
@@ -310,7 +313,7 @@
   }
 
   .drag-drop-files {
-    width: 309px;
+    width: 309px !important;
     height: 100px;
     margin-bottom: 30px;
   }
@@ -320,7 +323,5 @@
     height: 150px;
   }
 
-  /* .text-area{
-    margin-bottom: 10px;
-  } */
+
 }
